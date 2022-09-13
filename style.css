@@ -1,0 +1,110 @@
+:root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Verydarkbluem: hsl(217, 54%, 11%);
+    --Verydarkbluec: hsl(216, 50%, 16%);
+    --Verydarkbluel: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--Verydarkbluem);
+    font-size: 18px;
+}
+
+.nft-card {
+    max-width: 350px;
+    padding: 20px;
+    background-color: var(--Verydarkbluec);
+    border-radius: 30px;
+}
+
+.equilibrium {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: var(--White);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+h2:hover {
+    color: cyan;
+}
+
+p {
+    color: var(--Softblue);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.amount {
+    color: var(--Cyan);
+}
+
+.amount-span {
+    color: var(--Cyan);
+    margin-left: 5px;
+}
+
+.day-left {
+    color: var(--Softblue);
+}
+
+.days-span {
+    color: var(--Softblue);
+}
+
+hr {
+    background-color: var(--Softblue);
+}
+
+footer {
+    display: flex;
+    margin-top: 15px;
+}
+
+.avatar {
+    border-radius: 500%;
+    border: 2px solid var(--White);
+    width: 2.5rem;
+    display: block;
+}
+
+.title {
+    margin-left: 20px;
+    line-height: 1.5rem;
+}
+
+.title p {
+    color: var(--Softblue);
+    font-size: 16px;
+}
+
+.title span {
+    color: white;
+    font-size: 20px;
+}
